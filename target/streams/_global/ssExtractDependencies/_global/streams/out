@@ -1,8 +1,9 @@
-[error] sbt.librarymanagement.ResolveException: Error downloading com.twitter:finatra-http_2.13.2:20.3.0
+[error] sbt.librarymanagement.ResolveException: Error downloading net.debasishg:redisclient_2.12:3.0
 [error]   Not found
 [error]   Not found
-[error]   not found: /Users/zojutiku/.ivy2/local/com.twitter/finatra-http_2.13.2/20.3.0/ivys/ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/com/twitter/finatra-http_2.13.2/20.3.0/finatra-http_2.13.2-20.3.0.pom
+[error]   not found: /Users/zojutiku/.ivy2/local/net.debasishg/redisclient_2.12/3.0/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/net/debasishg/redisclient_2.12/3.0/redisclient_2.12-3.0.pom
+[error]   not found: http://maven.twttr.com/net/debasishg/redisclient_2.12/3.0/redisclient_2.12-3.0.pom
 [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:247)
 [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$35(CoursierDependencyResolution.scala:216)
 [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
@@ -33,8 +34,9 @@
 [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 [error] 	at java.lang.Thread.run(Thread.java:745)
-[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading com.twitter:finatra-http_2.13.2:20.3.0
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading net.debasishg:redisclient_2.12:3.0
 [error]   Not found
 [error]   Not found
-[error]   not found: /Users/zojutiku/.ivy2/local/com.twitter/finatra-http_2.13.2/20.3.0/ivys/ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/com/twitter/finatra-http_2.13.2/20.3.0/finatra-http_2.13.2-20.3.0.pom
+[error]   not found: /Users/zojutiku/.ivy2/local/net.debasishg/redisclient_2.12/3.0/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/net/debasishg/redisclient_2.12/3.0/redisclient_2.12-3.0.pom
+[error]   not found: http://maven.twttr.com/net/debasishg/redisclient_2.12/3.0/redisclient_2.12-3.0.pom

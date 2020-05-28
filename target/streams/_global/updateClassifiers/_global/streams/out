@@ -1,4 +1,1 @@
-[debug] "not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/Users/zojutiku/workspace/simpleapi/"), "simpleapi")...
-[debug] Done updating ProjectRef(uri("file:/Users/zojutiku/workspace/simpleapi/"), "simpleapi")
-[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[warn] insecure HTTP request is deprecated 'http://maven.twttr.com'; switch to HTTPS or opt-in as ("Twitter repository" at "http://maven.twttr.com").withAllowInsecureProtocol(true)
