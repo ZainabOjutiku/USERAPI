@@ -6,8 +6,10 @@ import com.twitter.finagle.http.Request
 import com.twitter.finatra.http.Controller
 import com.twitter.inject.Logging
 
-class UserController @Inject() extends Controller with Logging {
-  val clients2 = new RedisClient
+class UserController @Inject()(clients2: RedisClient)
+    extends Controller
+    with Logging {
+//  val clients2 = new RedisClient("localhost", 6379)
 
   get("/auser") { request: Request =>
     info("request got here")
