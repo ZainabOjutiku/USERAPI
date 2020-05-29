@@ -1,1 +1,1 @@
-[0m[[0m[33mwarn[0m] [0m[0minsecure HTTP request is deprecated 'http://maven.twttr.com'; switch to HTTPS or opt-in as ("Twitter repository" at "http://maven.twttr.com").withAllowInsecureProtocol(true)[0m
+[warn] insecure HTTP request is deprecated 'http://maven.twttr.com'; switch to HTTPS or opt-in as ("Twitter repository" at "http://maven.twttr.com").withAllowInsecureProtocol(true)

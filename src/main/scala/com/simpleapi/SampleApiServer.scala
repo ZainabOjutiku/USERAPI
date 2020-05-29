@@ -24,6 +24,5 @@ class SampleApiServer extends HttpServer {
       .filter[TraceIdMDCFilter[Request, Response]]
       .filter[CommonFilters]
       .add[UserController]
-    //      .add[SampleApiController]
   }
 }
