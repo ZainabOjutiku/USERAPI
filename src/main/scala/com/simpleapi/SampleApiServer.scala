@@ -15,8 +15,8 @@ import com.twitter.finatra.http.routing.HttpRouter
 object SampleApiServerMain extends SampleApiServer
 
 class SampleApiServer extends HttpServer {
-//  override val modules: Seq[Module] =
-//    Seq(RedisClientModule)
+  override val modules: Seq[Module] =
+    Seq(RedisClientModule)
 
   override def configureHttp(router: HttpRouter): Unit = {
     router
