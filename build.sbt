@@ -22,5 +22,6 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % versions.scalaTest % Test,
   "org.specs2" %% "specs2-core" % versions.specs2 % Test,
 //  "com.chiradip.rediscl" % "redisclient_2.10" % "0.8",
-  "net.debasishg" %% "redisclient" % "3.30"
+  "net.debasishg" %% "redisclient" % "3.30",
+  "org.mockito" % "mockito-core" % "3.1.0" % Test
 )

@@ -9,13 +9,12 @@ import com.twitter.inject.Logging
 class UserController @Inject()(clients2: RedisClient)
     extends Controller
     with Logging {
-//  val clients2 = new RedisClient("localhost", 6379)
 
   get("/auser") { request: Request =>
     info("request got here")
     val allUsers = clients2.hgetall("people")
-    info(s"printing a user = ${allUsers}")
-
+    info(s"printing a user = $allUsers")
+    allUsers
   }
 
   post("/auser/:id/:name") { request: Request =>
